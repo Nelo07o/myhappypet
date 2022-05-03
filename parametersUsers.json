@@ -1,0 +1,39 @@
+{
+  "mode": "CREATE_UPDATE",
+  "encoding": "UTF-8",
+  "format": {
+    "separator": ";",
+    "endOfLine": "\n"
+  },
+  "generateResultFile": true,
+  "attributesMapping": [
+    {
+      "headerColumn": "lastName",
+      "attributeName": "lastName"
+    },
+    {
+      "headerColumn": "firstName",
+      "attributeName": "firstName"
+    },
+    {
+      "headerColumn": "emailAddress",
+      "attributeName": "emailAddress"
+    },
+    {
+      "headerColumn": "motherLanguage",
+      "attributeName": "motherLanguage"
+    },
+    {
+      "headerColumn": "addressCountry",
+      "attributeName": "addressCountry"
+    },
+    {
+      "headerColumn": "uploadedPaperCard",
+      "attributeName": "uploadedPaperCard"
+    },
+    {
+      "headerColumn": "referralCode",
+      "attributeName": "referralCode"
+    }
+  ]
+}

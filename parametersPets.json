@@ -1,0 +1,43 @@
+{
+  "mode": "CREATE_UPDATE",
+  "encoding": "UTF-8",
+  "format": {
+    "separator": ";",
+    "endOfLine": "\n"
+  },
+  "generateResultFile": true,
+  "attributesMapping": [
+    {
+      "headerColumn": "petAppId",
+      "attributeName": "petAppId"
+    },
+    {
+      "headerColumn": "petName",
+      "attributeName": "petName"
+    },
+    {
+      "headerColumn": "petType",
+      "attributeName": "petType"
+    },
+    {
+      "headerColumn": "petBirthDate",
+      "attributeName": "petBirthDate"
+    },
+    {
+      "headerColumn": "petBreed",
+      "attributeName": "petBreed"
+    },
+    {
+      "headerColumn": "petGender",
+      "attributeName": "petGender"
+    },
+    {
+      "headerColumn": "petNeutered",
+      "attributeName": "petNeutered"
+    },
+    {
+      "headerColumn": "emailAddress",
+      "attributeName": "emailAddress"
+    }
+  ]
+}

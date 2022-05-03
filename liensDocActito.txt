@@ -1,0 +1,6 @@
+Documentation actito : https://cdn.actito.be/fe/actito-documentation-client/campaign/en/ACTITO_Documentation.html
+Portail développeur : https://developers.actito.com/
+Créer un import : https://developers.actito.com/api-reference/data-v4#operation/profiletables-import-create
+Pour selectionner le profil voulue : https://developers.actito.com/api-reference/data-v4#operation/profiles-get-one
+Comment créer un Webhook : https://developers.actito.com/api-reference/webhooks-v4#operation/webhooks-create
+Comment utiliser un Webhook : https://cdn.actito.be/fe/actito-documentation-client/campaign/fr/Utiliser_les_Webhooks.html
