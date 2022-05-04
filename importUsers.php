@@ -102,7 +102,7 @@ function buildAndZIPCSVUser($lastImportSuccessDate)
                 break;
         }
 
-        $tableUser[] = [$rows['last_name'], $rows['first_name'], $rows['email_address'], $language, $country, $rows['has_uploaded_paper_card'], $rows['referral_code'],];
+        $tableUser[] = [$rows['last_name'], $rows['first_name'], $rows['email_address'], $language, $country, $rows['has_uploaded_paper_card'], $rows['referral_code'], $rows['emails_optin']];
     }
     if (count($tableUser) == 0) return false;
 
@@ -111,7 +111,7 @@ function buildAndZIPCSVUser($lastImportSuccessDate)
     // ? Allows character encoding in utf-8
     fprintf($fichier_csv, chr(0xEF) . chr(0xBB) . chr(0xBF));
     // ? Header generation
-    $header = ['lastName', 'firstName', 'emailAddress', 'motherLanguage', 'addressCountry', 'uploadedPaperCard', 'referralCode'];
+    $header = ['lastName', 'firstName', 'emailAddress', 'motherLanguage', 'addressCountry', 'uploadedPaperCard', 'referralCode', 'subscriptions#Newsletter'];
     fputcsv($fichier_csv, $header, ";");
     // ? Browse the table and insert data into the file
     foreach ($tableUser as $lignes) {

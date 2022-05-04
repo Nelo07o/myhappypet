@@ -20,8 +20,8 @@ header('Status: 200');
 $profileId = $decodeData['data']['profileId'];
 $newsLetter = (int)$decodeData['data']['Newsletter'];
 
-// ? Initialization of a function that will update the user profile
-function updateProfile($token, $profileId, $newsLetter)
+// ? Initialization of a function that will update the user
+function updateUser($token, $profileId, $newsLetter)
 {
     $curl = curl_init();
     // ? cURL request that fetches the profile corresponding to the data received
@@ -63,4 +63,4 @@ function updateProfile($token, $profileId, $newsLetter)
 
 // ? Calling the necessary functions
 $token = getToken();
-updateProfile($token, $profileId, $newsLetter);
+updateUser($token, $profileId, $newsLetter);

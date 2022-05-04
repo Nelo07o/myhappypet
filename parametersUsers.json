@@ -34,6 +34,10 @@
     {
       "headerColumn": "referralCode",
       "attributeName": "referralCode"
+    },
+    {
+      "headerColumn": "subscriptions#Newsletter",
+      "attributeName": "subscriptions#Newsletter"
     }
   ]
 }
